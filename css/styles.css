@@ -9,15 +9,15 @@ nav {
 .logotop {
     width: 5%;
     height: 5%;
-    margin-left: 80px;
+    margin-left: 10%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 #navlist {
-    margin-right: 80px;
+    margin-right: 10%;
     float: right;
-    width: 80%;
+    width: 50%;
 }
 
 .navbutton {
@@ -32,8 +32,11 @@ nav {
 }
 
 .navbutton a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #5F5F5F;
     text-decoration: none;
-    font-weight: bold;
     display: inline-block;
     padding-left: 40px;
     padding-right: 40px;
@@ -41,6 +44,159 @@ nav {
     padding-bottom: 10px;
 }
 
+.navbutton a:hover {
+    color: white;
+}
+
 .navbutton:hover {
     background-color: #015249;
+}
+
+.content {
+    margin: auto;
+}
+
+.coverimg {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quotebox {
+    background-color: #77C9D4;
+    width: 40%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+#quoteheader {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 36px;
+}
+
+#quotep {
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+#quotepf {
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+#bnbox {
+    margin-top: 20px;
+}
+
+.centerbutton {
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+    background-color: white;
+    border: 2px solid #57BC90;
+    border-radius: 20px;
+}
+
+.centerbutton:hover {
+    background-color: #015249;
+}
+
+.centerbutton a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #5F5F5F;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.centerbutton a:hover {
+    color: white;
+}
+
+#infoboxes {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#infobox1 {
+    float: left;
+    background-color: #77C9D4;
+    width: 15%;
+    margin-left: 10%;
+}
+
+#infoimg1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.infoheader {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.infop {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+#infobox2 {
+    float: right;
+    background-color: #77C9D4;
+    width: 15%;
+    padding-bottom: 22px;
+}
+
+#infoimg2 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#infobox3 {
+    float: center;
+    background-color: #77C9D4;
+    width: 15%;
+    margin-right: 10%;
+    padding-bottom: 22px;
+}
+
+#infoimg3 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
