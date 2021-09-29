@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: #77C9D4;
+}
+
+.logotop {
+    width: 5%;
+    height: 5%;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#navlist {
+    margin-right: 80px;
+    float: right;
+    width: 80%;
+}
+
+.navbutton {
+    float: right;
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;
+    list-style: none;
+    background-color: white;
+    border: 2px solid #57BC90;
+    border-radius: 20px;
+}
+
+.navbutton a {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbutton:hover {
+    background-color: #015249;
+}
