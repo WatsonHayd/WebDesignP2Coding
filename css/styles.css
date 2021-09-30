@@ -412,15 +412,16 @@ nav {
 }
 
 #about1 {
-    max-width: 95%;
+    width: 80%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
 }
 
 #aboutimg1 {
     float: left;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     margin-top: 2%;
     max-width: 60%;
 }
@@ -448,7 +449,7 @@ nav {
 #about1header2 {
     float: right;
     text-align: left;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 35%;
     font-family: 'Roboto', sans-serif;
     color: #5F5F5F;
