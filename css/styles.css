@@ -7,22 +7,32 @@ nav {
 }
 
 .logotop {
-    width: 5%;
-    height: 5%;
+    max-width: 90px;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logofooter {
+    max-height: 100px;
     margin-left: 10%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 #navlist {
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-top: 20px;
     float: right;
-    width: 50%;
 }
 
 .navbutton {
     float: right;
-    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 50px;
     text-align: center;
     font-size: 16px;
     list-style: none;
@@ -35,13 +45,15 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    text-align: center;
     color: #5F5F5F;
     text-decoration: none;
     display: inline-block;
-    padding-left: 40px;
+    padding-left: 20%;
     padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 
 .navbutton a:hover {
@@ -148,7 +160,7 @@ nav {
 #infobox1 {
     float: left;
     background-color: #77C9D4;
-    width: 15%;
+    max-width: 20%;
     margin-left: 10%;
 }
 
@@ -178,7 +190,7 @@ nav {
 #infobox2 {
     float: right;
     background-color: #77C9D4;
-    width: 15%;
+    max-width: 20%;
     padding-bottom: 22px;
 }
 
@@ -191,7 +203,7 @@ nav {
 #infobox3 {
     float: center;
     background-color: #77C9D4;
-    width: 15%;
+    max-width: 20%;
     margin-right: 10%;
     padding-bottom: 22px;
 }
@@ -364,7 +376,7 @@ nav {
 }
 
 .nextbutton {
-    width: 10%;
+    max-width: 20%;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -386,6 +398,7 @@ nav {
     font-weight: 700;
     font-size: 18px;
     color: #5F5F5F;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     padding-left: 40px;
@@ -399,7 +412,7 @@ nav {
 }
 
 #about1 {
-    width: 80%;
+    max-width: 95%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -408,7 +421,8 @@ nav {
 #aboutimg1 {
     float: left;
     margin-bottom: 5%;
-    width: 60%;
+    margin-top: 2%;
+    max-width: 60%;
 }
 
 #about1header {
