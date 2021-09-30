@@ -203,6 +203,7 @@ nav {
 }
 
 #footerdiv {
+    clear: both;
     padding: 10px;
     background-color: #77C9D4;
     display: flex;
@@ -395,4 +396,58 @@ nav {
 
 .nextbutton a:hover {
     color: white;
+}
+
+#about1 {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutimg1 {
+    float: left;
+    margin-bottom: 5%;
+    width: 60%;
+}
+
+#about1header {
+    float: right;
+    text-align: left;
+    width: 35%;
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#about1p {
+    float: right;
+    text-align: left;
+    width: 35%;
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+    font-size: 18px;
+
+}
+
+#about1header2 {
+    float: right;
+    text-align: left;
+    margin-top: 10%;
+    width: 35%;
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#about2p {
+    float: right;
+    text-align: left;
+    width: 35%;
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+    font-size: 18px;
+
 }
