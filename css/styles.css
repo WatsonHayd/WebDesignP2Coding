@@ -225,3 +225,139 @@ nav {
     color: white;
     font-size: 14px;
 }
+
+.statusimg {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#bookboxes {
+    width: 70%;
+    margin: auto;
+}
+
+#serviceheader {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #5F5F5F;
+    font-size: 36px;
+}
+
+#servicebox {
+    background-color: #77C9D4;
+    padding: 10px;
+}
+
+.servicetext {
+    margin-left: 5%;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.selectionbox {
+    padding: 10px;
+    margin-left: 5%;
+    width: 80%;
+    text-align: left;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;    
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+}
+
+#detailheader {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #5F5F5F;
+    font-size: 36px;
+}
+
+#detailbox {
+    background-color: #77C9D4;
+    padding: 10px;
+}
+
+#namebox {
+    padding: 10px;
+    margin-left: 5%;
+    width: 80%;
+    text-align: left;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;    
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+}
+
+.flexbox {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#addressbox {
+    padding: 10px;
+    margin-left: 5%;
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;    
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+}
+
+#addresstext {
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#mobiletext {
+    margin-right: 5%;
+    margin-top: 50px;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#mobilebox {
+    padding: 10px;
+    margin-left: 5%;
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;    
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+}
+
+#notebox {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: left;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;    
+    font-family: 'Roboto', sans-serif;
+    color: #5F5F5F;
+}
