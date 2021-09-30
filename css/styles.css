@@ -351,13 +351,48 @@ nav {
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10%;
-    margin-left: 5%;
-    margin-bottom: 10px;
-    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     text-align: left;
     font-size: 16px;
     background-color: white;
     border-radius: 20px;    
     font-family: 'Roboto', sans-serif;
     color: #5F5F5F;
+}
+
+.nextbutton {
+    width: 10%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+    background-color: white;
+    border: 2px solid #57BC90;
+    border-radius: 20px;
+}
+
+.nextbutton:hover {
+    background-color: #015249;
+}
+
+.nextbutton a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #5F5F5F;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nextbutton a:hover {
+    color: white;
 }
